@@ -1,0 +1,37 @@
+{
+  "name": "Орбита · обновления",
+  "identifier": "dev.orbita.updates",
+  "description": "Версии Орбиты для тестирования на iPhone и iPad.",
+  "sourceURL": "https://raw.githubusercontent.com/TEREN7II/orbit-updates/main/source.json",
+  "iconURL": "https://raw.githubusercontent.com/TEREN7II/orbit-updates/main/icon.png",
+  "tintColor": "686020",
+  "apps": [
+    {
+      "name": "Orbit",
+      "bundleIdentifier": "dev.orbita.teren7ii.ios",
+      "developerName": "Орбита",
+      "subtitle": "Место для важного",
+      "localizedDescription": "Задачи, заметки, календарь, проекты и свободная карта связей. Данные хранятся локально на вашем устройстве. Интерфейс на русском, светлая и тёмная темы. Для установки нужны SideStore и iOS 17 или новее.",
+      "iconURL": "https://raw.githubusercontent.com/TEREN7II/orbit-updates/main/icon.png",
+      "tintColor": "686020",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "0.9.1",
+          "buildVersion": "14",
+          "date": "2026-10-24",
+          "localizedDescription": "Исправлена установка через SideStore: техническое имя приложения использует латиницу. Интерфейс остаётся русским. Задачи, заметки, календарь, проекты и карта связей работают локально на устройстве.",
+          "downloadURL": "https://raw.githubusercontent.com/TEREN7II/orbit-updates/main/Orbit-0.9.1-14.ipa",
+          "size": 1229309,
+          "minOSVersion": "17.0",
+          "sha256": "b35adbb02a0c58696ded12da2f32a57f5a5284af51576f76aa45973472dd3e39"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    }
+  ],
+  "news": []
+}
